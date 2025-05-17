@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <title>Student Data</title>
+
+</head>
+
+<body>
+    <nav>
+        <img src="logo1.png" alt="Book Hub Logo" class="logo-image">
+            <a href="firstpage.html" target="_self">Home</a>
+            <a href="student.html" target="_self">Student</a>
+            <a href="book.html" target="_self">Book </a>
+            <a href="issue.html" target="_self">Issue</a>
+            <a href="return.html" target="_self">Return</a>
+            <a href="report.html" target="_self">Reports</a>
+            <a href="About.html" target="_self">About</a>
+    </nav>
+
+    <div class="form">
+        <form name="form"  action="student.php" method="post" >
+            <h2>Student Entry</h2>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter Name" required>
+
+            <label for="rollno">Roll No</label>
+            <input type="text" name="rollno" id="rollno" placeholder="Enter Roll No" required>
+
+            <label for="class">Class</label>
+            <input type="text" name="class" id="class" placeholder="Enter Class" required>
+
+            <label for="section">Section</label>
+            <input type="text" name="section" id="section" placeholder="Enter Section" required>
+
+            <label for="mobile">Mobile</label>
+            <input type="number" name="mobile" id="mobile" placeholder="Enter Mobile Number" required>
+
+            <button type="submit" name="submit" value="submit" id="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

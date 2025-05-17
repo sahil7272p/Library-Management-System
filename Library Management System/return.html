@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Data</title>
+    <link rel="stylesheet" href="design.css">
+
+   
+</head>
+
+<body>
+    <nav>
+        <img src="logo1.png" alt="Book Hub Logo" class="logo-image">
+            <a href="firstpage.html" target="_self">Home</a>
+            <a href="student.html" target="_self">Student</a>
+            <a href="book.html" target="_self">Book </a>
+            <a href="issue.html" target="_self">Issue</a>
+            <a href="return.html" target="_self">Return</a>
+            <a href="report.html" target="_self">Reports</a>
+            <a href="About.html" target="_self">About</a>
+    </nav>
+
+    <div class="form">
+        <form name="form" action="return.php" method="post">
+            <h2>Return Entry</h2>
+
+            <label for="rollno">Roll No</label>
+            <input type="text" name="rollno" id="rollno" placeholder="Enter Roll No" required>
+
+            <label for="bid">Book Id</label>
+            <input type="text" name="bid" id="bid" placeholder="Enter Book No./Id" required>
+
+            <label for="issuedate">Issue Date</label>
+            <input type="date" name="issuedate" id="issuedate" required>
+
+            <label for="returndate">Return Date</label>
+            <input type="date" name="returndate" id="returndate" required>
+            
+            <button type="submit" name="Submit" value="Submit" id="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

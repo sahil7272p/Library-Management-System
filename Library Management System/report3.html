@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Student Data</title> -->
+    <link rel="stylesheet" href="design.css">
+</head>
+
+<body>
+    <nav>
+        <img src="logo1.png" alt="Book Hub Logo" class="logo-image">
+        <a href="firstpage.html" target="_self">Home</a>
+        <a href="student.html" target="_self">Student</a>
+        <a href="book.html" target="_self">Book </a>
+        <a href="issue.html" target="_self">Issue</a>
+        <a href="return.html" target="_self">Return</a>
+        <a href="report.html" target="_self">Reports</a>
+        <a href="About.html" target="_self">About</a>
+    </nav>
+
+    <div class="form">
+        <form name="form" action="report3.php" method="post">
+            <h2 style="align-items: left; font-size: 30px;"> Enter Both Dates </h2>
+
+            <label for="date1">Date 1</label>
+            <input type="date" name="date1" id="date1" required>
+
+            <label for="date2"> Date 2</label>
+            <input type="date" name="date2" id="date2" required>
+
+            <button type="submit" name="Submit" value="Submit" id="btn"  style="margin-left: 200px; margin-top: 15px;">Yes</button>
+        </form>
+    </div>
+</body>
+</html>
